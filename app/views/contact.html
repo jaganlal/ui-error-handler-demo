@@ -1,0 +1,9 @@
+<h1> Contact View </h1>
+
+<button ng-click="contact.getContacts()">Pull Contacts</button>
+
+<br/><br/>
+
+<div ng-if="contact.ready">
+	Contact name: <strong>{{contact.name}}</strong>
+</div>
